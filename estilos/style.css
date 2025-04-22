@@ -32,9 +32,9 @@ main{
 
 }
 section#login{
-    width: 90%;
-    max-width: 480px; /* Definindo uma largura máxima para o login */
-    height: 80%; /* Altura relativa */
+    width: 95%;
+     /* Definindo uma largura máxima para o login */
+    height: 98%; /* Altura relativa */
     background-color: var(--cor03);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
@@ -44,7 +44,7 @@ section#login{
 
 section#login > div#imagem{
     width: 100%;
-    height: 27%; /* Ajuste a altura da imagem conforme necessário */
+    height: 30%; /* Ajuste a altura da imagem conforme necessário */
     background: var(--cor02) url(../imagens/password-7476798_1280.png) no-repeat;
     background-position: center center;
     background-size: cover;
