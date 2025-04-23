@@ -35,7 +35,7 @@ main{
 section#login{
     width: 95%;
      /* Definindo uma largura máxima para o login */
-    height: 98%; /* Altura relativa */
+    height: 100vh; /* Altura relativa */
     background-color: var(--cor03);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
