@@ -32,6 +32,7 @@ main{
    
 
 }
+
 section#login{
     width: 95%;
      /* Definindo uma largura máxima para o login */
@@ -44,6 +45,7 @@ section#login{
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
     text-align: center;
+    
 }
 
 section#login > div#imagem{
@@ -55,6 +57,7 @@ section#login > div#imagem{
 }
 
 section#login > div#formulario{
+    
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -68,8 +71,45 @@ div#formulario h1{
 div#formulario p{
     padding-top: 7px;
     font-size: 1.1em;
+    width: 100%;
+    display: block;
+   
 
 }
+
+form > div.campo{
+  
+    background-color: var(--cor02);
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 2px solid var(--cor02);
+
+    
+}
+
+ div.campo > label{
+    display: none;
+ }
+ div.campo > span{
+    color: var(--cor03);
+    
+    padding: 5px;
+    width: 40px;
+    font-size: 2em;
+ }
+ div.campo > input{
+    background-color: var(--cor01);
+    font-size: 1em;
+    height: 100%;
+    width: calc(100%-44px);
+    transform: translateY(-12px);
+    border-radius: 5px;
+   
+ }
+ div.campo > input:focus-within{
+    background-color: white;
+ }
 form > input[type=submit]{
     display: block;
     font-family: 1.6em;
